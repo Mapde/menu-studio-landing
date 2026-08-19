@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Questionario di candidatura per un progetto di branding, prodotto digitale, 3D o WebAR dedicato alla ristorazione.">
+  <meta name="theme-color" content="#101726">
+  <link rel="icon" href="data:,">
+  <title>Raccontaci il tuo ristorante | Menu Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="landing.css">
+</head>
+
+<body class="brief-page">
+  <a class="skip-link" href="#questionario">Vai al questionario</a>
+
+  <header class="brief-header">
+    <div class="brief-nav shell">
+      <a class="brief-back" href="landing.html"><span aria-hidden="true">←</span> Torna al sito</a>
+    </div>
+  </header>
+
+  <main id="questionario" class="brief-main">
+    <div class="contact-light contact-light-one" aria-hidden="true"></div>
+    <div class="contact-light contact-light-two" aria-hidden="true"></div>
+
+    <div class="brief-layout shell">
+      <div class="brief-intro reveal">
+        <p class="eyebrow"><span></span> Questionario di candidatura</p>
+        <h1>Capire il progetto <em>prima della call.</em></h1>
+        <p>Quattro passaggi per comprendere ambizione, punto di partenza e fit. Esaminiamo ogni brief personalmente e,
+          quando c’è allineamento, proponiamo una conversazione strategica.</p>
+        <div class="brief-investment"><small>INVESTIMENTO DI PARTENZA</small><strong>€4.999</strong><span>3D, WebAR e branding esteso vengono quotati sul brief.</span></div>
+        <div class="questionnaire-meta" aria-label="Informazioni sul questionario">
+          <span><b>04</b> passaggi</span><span><b>≈2</b> minuti</span><span><b>01</b> revisione personale</span>
+        </div>
+      </div>
+
+      <form class="lead-form qualification-form reveal reveal-delay" id="lead-form" data-contact-email="" data-lead-endpoint="https://script.google.com/macros/s/AKfycbysFwHxnrXu6Kh-MZg_fDQzZTTYiA3-_AGlYIdHcUkH9itvbp-AcNV1rB_cIatFtDBUXA/exec">
+        <div class="form-progress" role="progressbar" aria-valuemin="1" aria-valuemax="4" aria-valuenow="1" aria-label="Avanzamento questionario" data-form-progressbar>
+          <div><span>STEP <b data-form-step-label>01</b></span><i>DI 04</i></div>
+          <span class="form-progress-track"><i data-form-progress></i></span>
+        </div>
+
+        <input class="honeypot" type="text" name="company_website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <fieldset class="form-step" data-form-step>
+          <legend><small>01 · Il locale</small><span>Da dove partiamo?</span></legend>
+          <div class="form-row"><label for="restaurant">Nome del ristorante <span aria-hidden="true">*</span></label><input id="restaurant" name="restaurant" type="text" autocomplete="organization" required></div>
+          <div class="form-split">
+            <div class="form-row"><label for="city">Città <span aria-hidden="true">*</span></label><input id="city" name="city" type="text" autocomplete="address-level2" required></div>
+            <div class="form-row"><label for="restaurant-type">Tipologia <span aria-hidden="true">*</span></label><select id="restaurant-type" name="restaurant_type" required><option value="">Seleziona</option><option>Fine dining</option><option>Ristorante premium</option><option>Boutique hotel / resort</option><option>Cocktail bar / lounge</option><option>Format contemporaneo</option><option>Altro</option></select></div>
+          </div>
+          <div class="form-row"><span class="form-label">Fase del progetto <span aria-hidden="true">*</span></span><div class="option-grid option-grid-two">
+            <label class="option-card"><input type="radio" name="stage" value="Riposizionamento di un locale attivo" required><span><b>Locale attivo</b><small>Vogliamo riposizionarlo.</small></span></label>
+            <label class="option-card"><input type="radio" name="stage" value="Nuova apertura"><span><b>Nuova apertura</b><small>Entro i prossimi mesi.</small></span></label>
+            <label class="option-card"><input type="radio" name="stage" value="Nuova sede o format"><span><b>Nuova sede</b><small>Il sistema deve scalare.</small></span></label>
+            <label class="option-card"><input type="radio" name="stage" value="Fase esplorativa"><span><b>Esplorazione</b><small>Stiamo definendo la visione.</small></span></label>
+          </div></div>
+          <div class="form-row"><label for="website">Sito o Instagram <span class="optional">(facoltativo)</span></label><input id="website" name="website" type="url" placeholder="https://" autocomplete="url"></div>
+          <div class="form-actions form-actions-end"><button class="button button-primary" type="button" data-form-next>Continua <span aria-hidden="true">→</span></button></div>
+        </fieldset>
+
+        <fieldset class="form-step" data-form-step hidden>
+          <legend><small>02 · Ambizione</small><span>Cosa deve cambiare?</span></legend>
+          <div class="form-row"><label for="objective">Obiettivo principale <span aria-hidden="true">*</span></label><select id="objective" name="objective" required><option value="">Seleziona l’obiettivo</option><option>Elevare qualità e percezione del locale</option><option>Rendere il brand più riconoscibile</option><option>Preparare una nuova apertura o un rilancio</option><option>Elevare l’esperienza al tavolo</option><option>Presentare meglio piatti e proposta gastronomica</option><option>Costruire un sistema replicabile per più sedi</option></select></div>
+          <div class="form-row"><span class="form-label">Cosa vorresti sviluppare? <span aria-hidden="true">*</span></span><div class="option-grid services-grid" data-required-group="services">
+            <label class="option-card"><input type="checkbox" name="services" value="Branding e identità"><span><b>Branding</b><small>Strategia e identità.</small></span></label>
+            <label class="option-card"><input type="checkbox" name="services" value="Prodotto digitale custom"><span><b>Digital product</b><small>UX, UI e coding.</small></span></label>
+            <label class="option-card"><input type="checkbox" name="services" value="Produzione 3D"><span><b>Produzione 3D</b><small>Piatti, oggetti o spazio.</small></span></label>
+            <label class="option-card"><input type="checkbox" name="services" value="WebAR"><span><b>WebAR</b><small>Esperienza nel locale.</small></span></label>
+            <label class="option-card"><input type="checkbox" name="services" value="Contenuti foto e video"><span><b>Contenuti</b><small>Foto, video e motion.</small></span></label>
+            <label class="option-card"><input type="checkbox" name="services" value="Da definire insieme"><span><b>Guidatemi voi</b><small>Definiamo il sistema.</small></span></label>
+          </div><small class="group-error" data-group-error hidden>Seleziona almeno un ambito.</small></div>
+          <div class="form-row"><label for="assets">Punto di partenza <span aria-hidden="true">*</span></label><select id="assets" name="assets" required><option value="">Seleziona</option><option>Brand già solido, vogliamo elevarlo</option><option>Identità professionale ma poco distintiva</option><option>Immagine frammentata e incoerente</option><option>Serve ripartire dalle fondamenta</option></select></div>
+          <div class="form-actions"><button class="button button-ghost" type="button" data-form-back><span aria-hidden="true">←</span> Indietro</button><button class="button button-primary" type="button" data-form-next>Continua <span aria-hidden="true">→</span></button></div>
+        </fieldset>
+
+        <fieldset class="form-step" data-form-step hidden>
+          <legend><small>03 · Fit</small><span>Investimento e tempi.</span></legend>
+          <div class="form-row"><span class="form-label">Investimento previsto <span aria-hidden="true">*</span></span><div class="option-grid budget-grid">
+            <label class="option-card"><input type="radio" name="budget" value="€4.999–€10.000" required><span><b>€4.999–10.000</b><small>Esperienza digitale core.</small></span></label>
+            <label class="option-card"><input type="radio" name="budget" value="€10.000–€15.000"><span><b>€10.000–15.000</b><small>Sistema più esteso.</small></span></label>
+            <label class="option-card"><input type="radio" name="budget" value="€15.000–€25.000"><span><b>€15.000–25.000</b><small>Brand, 3D o WebAR.</small></span></label>
+            <label class="option-card"><input type="radio" name="budget" value="Oltre €25.000"><span><b>Oltre €25.000</b><small>Esperienza completa.</small></span></label>
+            <label class="option-card option-card-wide"><input type="radio" name="budget" value="Da definire"><span><b>Da definire insieme</b><small>Conosciamo l’ambizione, non ancora il perimetro.</small></span></label>
+          </div></div>
+          <div class="form-split">
+            <div class="form-row"><label for="timeline">Quando vorreste iniziare? <span aria-hidden="true">*</span></label><select id="timeline" name="timeline" required><option value="">Seleziona</option><option>Il prima possibile</option><option>Entro 1–3 mesi</option><option>Entro 3–6 mesi</option><option>Oltre 6 mesi</option><option>Sto raccogliendo informazioni</option></select></div>
+            <div class="form-row"><label for="role">Il tuo ruolo <span aria-hidden="true">*</span></label><select id="role" name="role" required><option value="">Seleziona</option><option>Titolare / decisore</option><option>Socio / decisione condivisa</option><option>Marketing / comunicazione</option><option>Sto raccogliendo informazioni per il team</option></select></div>
+          </div>
+          <div class="form-actions"><button class="button button-ghost" type="button" data-form-back><span aria-hidden="true">←</span> Indietro</button><button class="button button-primary" type="button" data-form-next>Continua <span aria-hidden="true">→</span></button></div>
+        </fieldset>
+
+        <fieldset class="form-step" data-form-step hidden>
+          <legend><small>04 · Contatto</small><span>Dove possiamo risponderti?</span></legend>
+          <div class="form-split">
+            <div class="form-row"><label for="name">Nome e cognome <span aria-hidden="true">*</span></label><input id="name" name="name" type="text" autocomplete="name" required></div>
+            <div class="form-row"><label for="email">Email <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required></div>
+          </div>
+          <div class="form-row"><label for="phone">Telefono / WhatsApp <span class="optional">(facoltativo)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+          <div class="form-row"><label for="message">Cosa dovremmo sapere della tua visione?</label><textarea id="message" name="message" rows="4" placeholder="Raccontaci il concept, l’atmosfera o ciò che oggi non rappresenta abbastanza il locale…"></textarea></div>
+          <label class="privacy-check"><input type="checkbox" name="privacy" required><span>Accetto che questi dati siano utilizzati esclusivamente per valutare e rispondere alla richiesta. <b aria-hidden="true">*</b></span></label>
+          <div class="form-actions"><button class="button button-ghost" type="button" data-form-back><span aria-hidden="true">←</span> Indietro</button><button class="button button-primary form-submit" type="submit">Invia il brief <span aria-hidden="true">→</span></button></div>
+        </fieldset>
+
+        <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+      </form>
+    </div>
+  </main>
+
+  <div class="brief-success-modal" data-brief-success hidden>
+    <button class="brief-success-backdrop" type="button" data-brief-success-close aria-label="Chiudi il messaggio di conferma"></button>
+    <section class="brief-success-card" role="dialog" aria-modal="true" aria-labelledby="brief-success-title" aria-describedby="brief-success-description" tabindex="-1">
+      <button class="brief-success-close" type="button" data-brief-success-close aria-label="Chiudi">×</button>
+      <span class="brief-success-icon" aria-hidden="true">✓</span>
+      <p class="brief-success-eyebrow">Richiesta inviata</p>
+      <h2 id="brief-success-title">Grazie, il brief è arrivato.</h2>
+      <p id="brief-success-description">Esamineremo personalmente il progetto e, se c’è allineamento, ti contatteremo per organizzare una prima conversazione.</p>
+      <button class="button button-primary brief-success-action" type="button" data-brief-success-close>Chiudi <span aria-hidden="true">→</span></button>
+    </section>
+  </div>
+
+  <footer class="brief-footer shell">
+    <span>© <span data-year></span> Menu Studio</span>
+    <a href="landing.html#domande">Domande frequenti</a>
+  </footer>
+
+  <script src="landing.js?v=20260819-2" defer></script>
+</body>
+
+</html>

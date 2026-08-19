@@ -1,0 +1,203 @@
+/* Conversion-focused variant: scoped to landing_copyfabri.html. */
+
+.landing-fabri .hero-copy {
+  max-width: 690px;
+}
+
+.landing-fabri .hero h1 {
+  max-width: 680px;
+  font-size: clamp(3.25rem, 5.45vw, 5.45rem);
+}
+
+.landing-fabri .hero-text {
+  max-width: 610px;
+}
+
+.hero-qualifier {
+  max-width: 560px;
+  margin: 30px 0 0;
+  padding: 17px 0 0;
+  border-top: 1px solid rgba(255, 253, 248, .2);
+  color: rgba(255, 253, 248, .56);
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+.statement-cta {
+  justify-self: end;
+  white-space: nowrap;
+}
+
+.fabri-feature-light {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 82% 18%, rgba(199, 162, 96, .12), transparent 28rem),
+    var(--paper);
+}
+
+.fabri-feature-light .section-heading h2 {
+  color: var(--ink);
+}
+
+.fabri-feature-light .section-heading h2 em {
+  color: #957236;
+}
+
+.fabri-feature-light .section-heading > p:last-child {
+  color: #5b5c56;
+}
+
+.fabri-feature-light .feature-card:not(.feature-card-image) {
+  border-color: rgba(17, 20, 25, .14);
+  background: rgba(255, 253, 248, .54);
+  box-shadow: 0 24px 60px rgba(44, 38, 27, .055);
+}
+
+.fabri-feature-light .feature-card:not(.feature-card-image):hover {
+  border-color: rgba(151, 116, 53, .38);
+  box-shadow: 0 28px 70px rgba(44, 38, 27, .1);
+}
+
+.fabri-feature-light .feature-card:not(.feature-card-image) .feature-number {
+  color: rgba(17, 20, 25, .45);
+}
+
+.fabri-feature-light .feature-card:not(.feature-card-image) .feature-icon {
+  color: #8e6a2f;
+}
+
+.fabri-feature-light .feature-card:not(.feature-card-image) h3 {
+  color: var(--ink);
+}
+
+.fabri-feature-light .feature-card:not(.feature-card-image) p {
+  color: #5b5c56;
+}
+
+.fabri-feature-light .feature-card:not(.feature-card-image) .allergen-chips span {
+  color: #6c5529;
+  border-color: rgba(108, 85, 41, .3);
+}
+
+.fabri-feature-light .feature-card:not(.feature-card-image) .qr-grid i {
+  background: #9b7937;
+}
+
+.fabri-feature-light .feature-footnote {
+  color: #66675f;
+}
+
+.fabri-demo-note {
+  margin: 18px 0 0;
+  color: rgba(255, 253, 248, .48) !important;
+  font-size: 11px !important;
+  line-height: 1.55 !important;
+}
+
+.fabri-fit-note {
+  max-width: 590px;
+  margin-top: 24px !important;
+  padding-top: 18px;
+  border-top: 1px solid rgba(17, 20, 25, .13);
+  color: #67685f !important;
+  font-size: 11px !important;
+}
+
+.fabri-faq-dark {
+  position: relative;
+  overflow: hidden;
+  color: var(--cream);
+  background:
+    linear-gradient(rgba(255, 255, 255, .025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .025) 1px, transparent 1px),
+    radial-gradient(circle at 88% 22%, rgba(65, 88, 145, .34), transparent 28rem),
+    var(--navy-deep);
+  background-size: 68px 68px, 68px 68px, auto, auto;
+}
+
+.fabri-faq-dark .faq-intro h2 {
+  color: var(--cream);
+}
+
+.fabri-faq-dark .faq-intro h2 em {
+  color: var(--gold-pale);
+}
+
+.fabri-faq-dark .faq-list {
+  border-top-color: rgba(255, 253, 248, .17);
+}
+
+.fabri-faq-dark .faq-item {
+  border-bottom-color: rgba(255, 253, 248, .17);
+}
+
+.fabri-faq-dark .faq-item button {
+  color: rgba(255, 253, 248, .86);
+}
+
+.fabri-faq-dark .faq-item button:hover,
+.fabri-faq-dark .faq-item button:focus-visible {
+  color: var(--gold-pale);
+}
+
+.fabri-faq-dark .faq-panel-inner p {
+  color: rgba(255, 253, 248, .62);
+}
+
+@media (max-width: 950px) {
+  .landing-fabri .hero-copy {
+    max-width: 760px;
+  }
+
+  .landing-fabri .hero-text {
+    max-width: 660px;
+  }
+}
+
+@media (max-width: 680px) {
+  .landing-fabri .hero h1 {
+    font-size: clamp(2.65rem, 12.2vw, 3.55rem);
+  }
+
+  .landing-fabri .hero-text {
+    font-size: 14px;
+  }
+
+  .hero-qualifier {
+    margin-top: 24px;
+    font-size: 10px;
+  }
+
+  .fabri-feature-light .feature-card {
+    min-height: 280px;
+  }
+
+  .fabri-faq-dark .faq-section {
+    gap: 2.6rem;
+  }
+
+  .statement-cta {
+    justify-self: stretch;
+    width: 100%;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fabri-feature-light .feature-card {
+    transform: none !important;
+  }
+}
+.nav-shell-logo-free {
+  justify-content: flex-end;
+}
+
+.landing-fabri .footer-grid {
+  grid-template-columns: 1.3fr auto;
+}
+
+@media (max-width: 680px) {
+  .landing-fabri .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
