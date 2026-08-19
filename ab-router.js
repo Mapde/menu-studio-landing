@@ -10,7 +10,7 @@
 
   const VARIANTS = Object.freeze({
     A: 'landing.html',
-    B: 'landing_copyfabri.html'
+    B: 'landing-b.html'
   });
 
   const normalizeVariant = (value) => {

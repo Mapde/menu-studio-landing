@@ -84,7 +84,7 @@
   }
 
   if (!pageAbVariant && landingVariant) {
-    const landingFile = landingVariant === 'B' ? 'landing_copyfabri.html' : 'landing.html';
+    const landingFile = landingVariant === 'B' ? 'landing-b.html' : 'landing.html';
     document.querySelectorAll('a[href^="landing.html"]').forEach((link) => {
       const target = new URL(link.getAttribute('href').replace(/^landing\.html/, landingFile), window.location.href);
       target.searchParams.set('ab_exp', abExperimentId);
